@@ -36,7 +36,7 @@ export const ClaraAbout = styled.img`
 
 export const Left = styled.div `
   display: flex;
-  padding-left: 130px;
+  padding-left: 185px;
   flex-direction: column;
 `
 
