@@ -10,7 +10,7 @@ function Inspo() {
     <>
       <Container>
       <GlobalContainer />
-      <div>
+      <section id="inspiracoes">
       <Title>Principais Inspirações</Title>
       <InfoInspo>
         Estar atualizada é parte do meu trabalho — e do que mais gosto de fazer.
@@ -27,7 +27,7 @@ function Inspo() {
       <img src={ig2} alt="Inspiração 2" />
       <img src={ig3} alt="Inspiração 3" />
       </InspoImages>
-      </div>
+      </section>
       </Container>
     </>
   );

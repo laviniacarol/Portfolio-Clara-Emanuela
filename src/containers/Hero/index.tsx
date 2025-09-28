@@ -10,7 +10,14 @@ function Hero() {
         <div>
           <Name>Clara Brito</Name>
           <Area>Marketing & Social Media</Area>
-          <Button>Contato</Button>
+          <a
+            href="https://wa.me/5548984847422"
+            target="_blank"
+            rel="noopener noreferrer"
+            style={{ textDecoration: "none" }}
+          >
+            <Button>Contato</Button>
+          </a>
         </div>
 
         <ClientImage>

@@ -1,12 +1,24 @@
-import styled from "styled-components";
+import styled, { keyframes } from "styled-components";
 
 
-export const Name = styled.h1 `
-   font-size: 68px;
-   padding-bottom: 0.1rem;
-   font-weight: bold;
-   color: black;
-`
+const slideInLeft = keyframes`
+  from {
+    transform: translateX(-60px);
+    opacity: 0;
+  }
+  to {
+    transform: translateX(0);
+    opacity: 1;
+  }
+`;
+
+export const Name = styled.h1`
+  font-size: 68px;
+  padding-bottom: 0.1rem;
+  font-weight: bold;
+  color: black;
+  animation: ${slideInLeft} 0.7s ease;
+`;
 
 export const Area = styled.h2 `
    font-size: 22px;

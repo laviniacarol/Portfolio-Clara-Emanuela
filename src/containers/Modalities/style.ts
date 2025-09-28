@@ -33,11 +33,12 @@ export const Article = styled.h3 `
    color: #8b8787ff;
    font-size: 25px;
     text-align: left;
+    padding-bottom: 6rem;
  `
 
 export const ContractImg = styled.img`
   width: auto;   
-  height: 580px;   
+  height: 500px;   
   display: block; 
   margin: 2rem auto;
 `;

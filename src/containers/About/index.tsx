@@ -3,14 +3,13 @@ import { ClaraAbout } from "./style";
 import { Container, Info, STitle, Title, Left, ClientImage } from "./style";
 import Clara2 from "../../assets/Clara2.svg";
 
-
 const About = () => {
   return (
-    <Container>
+    <Container id="sobre-mim">
       <Left>
         <Title>Sobre mim </Title>
         <ClientImage>
-       <ClaraAbout src={Clara2} alt="Clara em Paris" />    
+          <ClaraAbout src={Clara2} alt="Clara em Paris" />    
         </ClientImage>
       </Left>
       <div>

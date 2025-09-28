@@ -8,13 +8,15 @@ const Header = () => {
       <GlobalContainer/>
       <Nav>
         <Logo>C.BRITO</Logo>
-        <NavLink href="/">Inspirações</NavLink>
-        <NavLink href="/">Sobre mim</NavLink>
-        <NavLink href="/">Modalidades</NavLink>
+        <NavLink href="#inspiracoes">Inspirações</NavLink>
+        <NavLink href="#sobre-mim">Sobre mim</NavLink>
+        <NavLink href="#modalidades">Modalidades</NavLink>
       </Nav>
 
       <SocialIcons>
-        <Icon src="/insta.svg" alt="Instagram" />
+        <a href="https://www.instagram.com/claraemanuelab/" target="_blank" rel="noopener noreferrer">
+          <Icon src="/insta.svg" alt="Instagram" />
+        </a>
         <Icon src="/linkedin.svg" alt="LinkedIn" />
       </SocialIcons>
     </Container>

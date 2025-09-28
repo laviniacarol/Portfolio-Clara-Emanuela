@@ -8,6 +8,8 @@ import Header from './containers/Header'
 import About from "./containers/About";
 import Inspo from "./containers/Inspo";
 import Modalities from "./containers/Modalities";
+import Redirect from "./containers/Redirect";
+import Footer from "./containers/Footer";
 
 createRoot(document.getElementById('root')!).render(
   <StrictMode>
@@ -16,5 +18,7 @@ createRoot(document.getElementById('root')!).render(
     <About/>
     <Inspo/>
     <Modalities/>
+    <Redirect/>
+    <Footer/>
   </StrictMode>,
 )

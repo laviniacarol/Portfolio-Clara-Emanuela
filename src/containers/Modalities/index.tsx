@@ -4,6 +4,7 @@ function Modalities() {
   return (
     <>
       <Container>
+        <section id="modalidades">
         <Name>Modalidades</Name>
         <Details>Principais dúvidas</Details>
         <ContractImg src={Contract} alt="Contrato" />
@@ -24,7 +25,9 @@ function Modalities() {
           você! Entre em contato comigo por whatsapp ou e-mail e marcamos uma
           call ;)
         </Description>
+        </section>
       </Container>
+      
     </>
   );
 }
