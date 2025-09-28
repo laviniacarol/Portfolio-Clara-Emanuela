@@ -1,3 +1,6 @@
+Trabalho em progresso.
+(WORKING ON PROGESS)
+
 <img width="1834" height="773" alt="Captura de tela de 2025-09-27 22-09-11" src="https://github.com/user-attachments/assets/2591f1e3-4b6d-44c7-9789-35544de52b11" />
 <img width="1836" height="966" alt="Captura de tela de 2025-09-27 22-09-23" src="https://github.com/user-attachments/assets/a8c1d076-eb2c-4d16-ac49-2682d1d09930" />
 <img width="1836" height="966" alt="Captura de tela de 2025-09-27 22-09-32" src="https://github.com/user-attachments/assets/a22f48e8-e2a5-4ceb-a930-bbb966ce4c73" />
